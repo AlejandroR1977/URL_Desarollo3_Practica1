@@ -52,9 +52,6 @@ public class URL_Reader {
         for (String name : headersName) {
             System.out.printf("%s = %s\n", name, headers.get(name));
         }
-
-        System.out.println("\nContedido:\n");
-
         // Crear un flujo para leer datos del URL
         BufferedReader in = null;
         try {
